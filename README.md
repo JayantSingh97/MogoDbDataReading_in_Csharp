@@ -19,5 +19,5 @@ MogoDbDataReading_in_Csharp
             }
              
              
-            // Now collection has been retrived from mongo serer and available in c# object for further use.
+            // Now the collection has been retrived from mongo server and available in c# object for further use.
          }
