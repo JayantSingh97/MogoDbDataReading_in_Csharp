@@ -9,8 +9,8 @@ MogoDbDataReading_in_Csharp
             MongoClient client = new MongoClient("mongodb://" + MongoServer);
             var db = client.GetDatabase("DB"); 
             var CollectionsName =  db.ListCollectionNames();
-            var CollactionData = db.GetCollection<ClickTrackMonitor>("CollectionName");
-            var CollactionAsList = db.GetCollection<ClickTrackMonitor>("CollectionName").AsQueryable();
+            var CollactionData = db.GetCollection<CollectionsName>("CollectionName");
+            var CollactionAsList = db.GetCollection<CollectionsName>("CollectionName").AsQueryable();
 
 
             foreach (var item in CollactionAsList)
